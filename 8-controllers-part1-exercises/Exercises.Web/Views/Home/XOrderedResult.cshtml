@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "xOrderedName Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+@model XOrderedModel
+
+
+    <div>
+        <ul>
+            <li>
+                First Name: @Model.FirstName
+            </li>
+            <li>
+                Middle Initial: @Model.MiddleInitial
+            </li>
+            <li>
+                Last Name: @Model.LastName
+            </li>
+            <li>
+                Ordered: @Model.OrderName()
+            </li>
+        </ul>
+    </div>
+
+
+
+

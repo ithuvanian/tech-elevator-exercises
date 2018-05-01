@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <ul>
+            @{
+                int counter = 0;
+                int f1 = 0;
+                int f2 = 1;
+                int f3 = 0;
+
+                while (counter < 25)
+                {
+                    f3 = f1 + f2;
+                    f1 = f2;
+                    f2 = f3;
+                    counter++;
+                    <li>
+                        @f3
+                    </li>
+
+                }
+            }
+        </ul>
+    </div>
+</body>
+</html>

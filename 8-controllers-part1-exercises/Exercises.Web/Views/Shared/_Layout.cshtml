@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("xOrdered Name", "XOrderedName", "Home")</li>
+            <li>@Html.ActionLink("Colorized Name", "ColorizedName", "Home")</li>
+            <li>@Html.ActionLink("Fizz Buzz Revisited", "FizzBuzzRevisited", "Home")</li>
+            <li>@Html.ActionLink("Last Two", "LastTwo", "Home")</li>
+            <li>@Html.ActionLink("Baby Lotto", "BabyLotto", "Home")</li>
+            <li>@Html.ActionLink("Squirrel Cigar Party", "SquirrelCigarParty", "Home")</li>
+        </ul>
+    </nav>
+    
+        @RenderBody()
+    
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\bin\Debug\WordSearch.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\bin\Debug\WordSearch.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\bin\Debug\WordSearch.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\obj\Debug\WordSearch.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\obj\Debug\WordSearch.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\obj\Debug\WordSearch.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d1-file-io-part1-exercises\WordSearch\obj\Debug\WordSearch.csprojResolveAssemblyReference.cache

@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Product Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+@model Product
+
+@{
+    string imageName = "../../Content/img/" + Model.ImageName;
+}
+
+<section id="mainSection">
+    <h2>
+        Solar System Geek Gift Shop
+    </h2>
+    <div class="productDetail">
+        <div class="listImage">
+            <img class="image_icon" src=@imageName />
+        </div>
+        @using (Html.BeginForm("ShoppingCart", "Home", FormMethod.Post))
+        {
+            <p>
+                @Model.Name
+                @Html.HiddenFor(m => m.Name, Model.Name)
+            </p>
+            <p>
+                @Model.Price
+                @Html.HiddenFor(m => m.Price, Model.Price)
+            </p>
+            <p>
+                @Model.Description
+                @Html.HiddenFor(m => m.Description, Model.Description)
+            </p>
+            <p>
+                @Model.ImageName
+                @Html.HiddenFor(m => m.ImageName, Model.ImageName)
+            </p>
+            <p>
+                Quantity to buy
+                @Html.
+                (m => m.Qty)
+            </p>
+            <button type="submit">Add to Cart</button>
+        }
+    </div>
+
+</section>

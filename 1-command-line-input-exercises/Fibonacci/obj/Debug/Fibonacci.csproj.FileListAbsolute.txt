@@ -1,0 +1,6 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\bin\Debug\Fibonacci.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\bin\Debug\Fibonacci.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\bin\Debug\Fibonacci.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\obj\Debug\Fibonacci.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\Fibonacci\obj\Debug\Fibonacci.pdb

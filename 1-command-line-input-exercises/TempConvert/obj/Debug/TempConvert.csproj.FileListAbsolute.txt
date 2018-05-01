@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\bin\Debug\TempConvert.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\bin\Debug\TempConvert.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\bin\Debug\TempConvert.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\obj\Debug\TempConvert.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\obj\Debug\TempConvert.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\obj\Debug\TempConvert.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\TempConvert\obj\Debug\TempConvert.csprojResolveAssemblyReference.cache

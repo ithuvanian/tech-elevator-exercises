@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";   //<-- Our Shared Layout file is located at this folder path.
+}
+
+@using Exercises.Models;
+
+@model List<Product>
+
+
+<div class="table_container">
+    <table>
+        <thead>
+            <tr class="headers">
+                <td>
+                    Product name
+                </td>
+                <td>
+                    Manufacturer
+                </td>
+                <td>
+                    Product weight
+                </td>
+                <td>
+                    Qty in stock
+                </td>
+                <td>
+                    Price
+                </td>
+            </tr>
+        </thead>
+
+        @foreach (Product thisProduct in Model)
+            {
+
+            <tr class="table_product_row">
+
+                <td class="table_name">
+                    <a href="@Url.Action("Detail","Product", new { id = thisProduct.ProductId }, null)">
+                        @thisProduct.Name
+                    </a>
+                </td>
+                <td>
+                    @thisProduct.Manufacturer
+                </td>
+                <td>
+                    @thisProduct.WeightIbLbs lbs.
+                </td>
+                <td>
+                    @thisProduct.RemainingStock
+                </td>
+                <td class="table_price">
+                    $ @thisProduct.Price
+                </td>
+
+
+            </tr>
+        }
+    </table>
+</div>
+
+

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Alien Age Calculator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models;
+@model SSGeek.Models.AlienTravelModel
+
+
+<section id="mainSection">
+
+    <h2>Alien Travel Calculator</h2>
+
+    @using (Html.BeginForm("AlienTravelResult", "Calculators", FormMethod.Get))
+    {
+
+        <div>
+            @Html.Label("planet", "Choose a planet")
+            @Html.DropDownListFor(m => m.Planet, AlienTravelModel.Planets)
+        </div>
+
+        <div>
+            @Html.Label("mode", "Choose a mode of travel")
+            @Html.DropDownListFor(m => m.Mode, AlienTravelModel.ModeList)
+        </div>
+
+        <div>
+            @Html.Label("earthAge", "Enter your earth age")
+            @Html.TextBoxFor(m => m.Age)
+        </div>
+
+        <button class="formSubmitButton">Calculate Age</button>
+
+    }
+</section>

@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Forum View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+@using SSGeek.DAL
+@model List<ForumPost>
+
+
+<section id="mainSection">
+    <div id="forumViewHeader">
+
+        <h3>Solar System Geek Forum</h3>
+        <p>
+            @Html.ActionLink("Post a Message", "ForumSubmit", "Home")
+        </p>
+
+    </div>
+
+
+        @{
+            foreach (ForumPost post in Model)
+            {
+
+                <div class="forumPost">
+                    <h4>
+                        @post.Subject
+                    </h4>
+                    <p>
+                        by @post.Username on @post.PostDate.ToString("MM-dd-yyyy") at @post.PostDate.ToString("hh:mm tt")
+                    </p>
+                    <p>
+                        @post.Message
+                    </p>
+                </div>
+            }
+
+        }
+
+
+</section>

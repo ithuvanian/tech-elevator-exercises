@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Baby Lotto Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model BabyLottoModel
+
+@{
+    string[] tickets = { Model.TicketA, Model.TicketB, Model.TicketC, Model.TicketD, Model.TicketE };
+
+    int totalScore = 0;
+    foreach (string ticket in tickets)
+    {
+        int thisScore;
+        int[] numSet = ticket.Split(',').Select(n => Convert.ToInt32(n)).ToArray();
+        string numDisplay = $"{numSet[0]}, {numSet[1]}, {numSet[2]}";
+        if (numSet[0] == numSet[1] && numSet[0] == numSet[2])
+        {
+            thisScore = 20;
+            <p style="color: green; font-weight: bold">
+                @numDisplay
+            </p>
+        }
+        else if (numSet[0] != numSet[1] && numSet[0] != numSet[2] && numSet[1] != numSet[2])
+        {
+            thisScore = 0;
+            <p style="color: black; font-weight: bold">
+                @numDisplay
+            </p>
+        }
+        else
+        {
+            thisScore = 10;
+            <p style="color: silver; font-weight: bold">
+                @numDisplay
+            </p>
+        }
+        totalScore += thisScore;
+    }
+    <p>Total Score: @totalScore points</p>
+
+}

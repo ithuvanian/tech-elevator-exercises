@@ -1,0 +1,12 @@
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\bin\Debug\TDDExercises.dll
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\bin\Debug\TDDExercises.pdb
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\obj\Debug\TDDExercises.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\obj\Debug\TDDExercises.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\obj\Debug\TDDExercises.dll
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises\obj\Debug\TDDExercises.pdb
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\bin\Debug\TDDExercises.dll
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\bin\Debug\TDDExercises.pdb
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\obj\Debug\TDDExercises.csprojResolveAssemblyReference.cache
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\obj\Debug\TDDExercises.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\obj\Debug\TDDExercises.dll
+C:\Users\Micha\Documents\MEGA\code\c#\3-words and numbers\Exercises\obj\Debug\TDDExercises.pdb

@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\bin\Debug\FileSplitter.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\bin\Debug\FileSplitter.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\bin\Debug\FileSplitter.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\obj\Debug\FileSplitter.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\obj\Debug\FileSplitter.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\obj\Debug\FileSplitter.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w4d2-file-io-part2-exercises\FileSplitter\obj\Debug\FileSplitter.csprojResolveAssemblyReference.cache

@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Fizz Buzz Revisited";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model FizzBuzzRevModel
+
+
+@using (Html.BeginForm("FizzBuzzRevResult", "Home", FormMethod.Get))
+{
+    <div>
+        @Html.Label("divA", "Divisible by:")
+        @Html.TextBoxFor(m => m.DivA, new { @type = "number" })
+    </div>
+    <div>
+        @Html.Label("divB", "Divisible by:")
+        @Html.TextBoxFor(m => m.DivB, new { @type = "number" })
+    </div>
+    <div>
+        @Html.Label("altFizz", "Alternative Fizz:")
+        @Html.TextBoxFor(m => m.AltFizz)
+    </div>
+    <div>
+        @Html.Label("altBuzz", "Alternative Buzz:")
+        @Html.TextBoxFor(m => m.AltBuzz)
+    </div>
+    <ul>
+        <li>
+            Number 1: @Html.TextBoxFor(m => m.IntA, new { @type = "number"})
+        </li>
+        <li>
+            Number 2: @Html.TextBoxFor(m => m.IntB, new { @type = "number" })
+        </li>
+        <li>
+            Number 3: @Html.TextBoxFor(m => m.IntC, new { @type = "number" })
+        </li>
+        <li>
+            Number 4: @Html.TextBoxFor(m => m.IntD, new { @type = "number" })
+        </li>
+        <li>
+            Number 5: @Html.TextBoxFor(m => m.IntE, new { @type = "number" })
+        </li>
+    </ul>
+
+    <button>Submit</button>
+
+}

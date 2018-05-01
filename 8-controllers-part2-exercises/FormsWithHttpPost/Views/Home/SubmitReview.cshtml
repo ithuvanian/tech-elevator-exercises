@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Submit View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using FormsWithHttpPost.Models
+@using FormsWithHttpPost.DAL
+
+@model Review
+
+@using (Html.BeginForm("SubmitReview", "Home", FormMethod.Post))
+{
+    <div class="formDescription">
+        Username: @Html.TextBoxFor(m => m.Username)
+    </div>
+    <div class="formDescription">
+        Rating (1-5 stars): @Html.TextBoxFor(m => m.Rating)
+    </div>
+    <div class="formDescription">
+        Review Title: @Html.TextBoxFor(m => m.Title)
+    </div>
+    <div class="formDescription">
+        Review Text: @Html.TextAreaFor(m => m.Message)
+    </div>
+
+    <button>Submit</button>
+}
+
+
+

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "ShoppingCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+
+@model List<Product>
+
+<section id="mainSection">
+
+
+    <table class="shoppingCartTable">
+        <tr>
+            <td></td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Qty.</td>
+            <td>Total</td>
+
+        </tr>
+
+        @foreach (Product thisProduct in Model)
+        {
+                string imageName = "../Content/img/" + thisProduct.ImageName;
+            
+
+                <tr class="productTableListing">
+                    <td>
+                        <img class="image_icon" src="@imageName" />
+                    </td>
+                    <td>
+                        @thisProduct.Name: @thisProduct.Description
+                    </td>
+                    <td>
+                        @thisProduct.Price.ToString("C2")
+                    </td>
+                    <td>
+                        @thisProduct.Qty
+                    </td>
+                    <td>
+                        @{
+                            double totalPrice = thisProduct.Price * thisProduct.Qty;
+                        }
+                        @totalPrice
+                    </td>
+
+                </tr>
+                            }
+
+    </table>
+
+    @using (Html.BeginForm("ProductList", "Home", FormMethod.Get))
+    {
+        <button class="cartToGiftShopButton" type="submit">Return to Gift Shop</button>
+    }
+
+
+
+</section>

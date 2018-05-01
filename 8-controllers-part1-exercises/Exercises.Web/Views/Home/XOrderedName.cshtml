@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "xOrderedName";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models;
+@model XOrderedModel
+
+
+@using (Html.BeginForm("XOrderedResult", "Home", FormMethod.Get))
+{
+    <div>
+        @Html.Label("firstName", "First Name:")
+        @Html.TextBoxFor(m => m.FirstName)
+    </div>
+    <div>
+        @Html.Label("middleInitial", "Middle Initial:")
+        @Html.TextBoxFor(m => m.MiddleInitial)
+    </div>
+    <div>
+        @Html.Label("lastName", "Last Name:")
+        @Html.TextBoxFor(m => m.LastName)
+    </div>
+
+    <div>
+        @Html.RadioButtonFor(m => m.Order, 1) First MI Last
+        @Html.RadioButtonFor(m => m.Order, 2) First Last
+        @Html.RadioButtonFor(m => m.Order, 3) Last, First MI
+        @Html.RadioButtonFor(m => m.Order, 4) Last, First
+    </div>
+    <button>
+        Submit
+    </button>
+}
+

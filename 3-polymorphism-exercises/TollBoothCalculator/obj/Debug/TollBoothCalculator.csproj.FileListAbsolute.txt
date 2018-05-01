@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\bin\Debug\TollBoothCalculator.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\bin\Debug\TollBoothCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\bin\Debug\TollBoothCalculator.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\obj\Debug\TollBoothCalculator.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\obj\Debug\TollBoothCalculator.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\obj\Debug\TollBoothCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\TollBoothCalculator\obj\Debug\TollBoothCalculator.pdb

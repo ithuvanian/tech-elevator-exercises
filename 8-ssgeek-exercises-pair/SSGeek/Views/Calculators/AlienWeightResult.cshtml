@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Alien Weight Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+
+@model SSGeek.Models.AlienWeightModel
+
+@{
+    string imageName = "..\\Content\\img\\" + Model.Planet + ".jpg";
+}
+
+<section id="mainSection">
+
+    <div>
+        <img class="planetImage" src=@imageName alt="Alternate Text" />
+    </div>
+    <div class="resultText">If you are @Model.EarthWeight lbs on planet Earth, you would weigh @Model.CalculateWeight() on @Model.Planet</div>
+
+</section>
+

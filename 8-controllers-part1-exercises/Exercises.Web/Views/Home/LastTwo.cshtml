@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Last Two";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model LastTwoModel
+
+
+@using (Html.BeginForm("LastTwoResult", "Home", FormMethod.Get))
+{
+    <ul>
+        <li>
+            @Html.TextBoxFor(m => m.WordA)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordB)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordC)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordD)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordE)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordF)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordG)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordH)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordI)
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.WordJ)
+        </li>
+    </ul>
+
+    <button>Submit</button>
+}

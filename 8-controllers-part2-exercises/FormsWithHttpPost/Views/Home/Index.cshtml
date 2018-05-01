@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "View Reviews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using FormsWithHttpPost.Models
+@using FormsWithHttpPost.DAL
+
+@model List<Review>
+
+
+<img class="bookCover" src="../content/forDummies.png" alt="Alternate Text" />
+<h2>Past Reviews</h2>
+
+@{
+    foreach (Review thisReview in Model)
+    {
+        <div class="review">
+            <div>
+                <span>@thisReview.Title </span>
+                @for (int i = 1; i <= thisReview.Rating; i++)
+                {
+                    <img class="starPic" src="../Content/star.png" alt="Alternate Text" />
+                }
+            </div>
+            <div>
+                by @thisReview.Username on @thisReview.ReviewDate.ToString("MM/dd/yyyy")
+            </div>
+            <div class="reviewMsg">
+                @thisReview.Message
+            </div>
+        </div>
+
+    }
+}

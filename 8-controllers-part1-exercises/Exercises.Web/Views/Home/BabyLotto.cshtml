@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Baby Lotto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model BabyLottoModel
+
+@using (Html.BeginForm("BabyLottoResult", "Home", FormMethod.Get))
+{
+
+
+    <ul>
+        <li>
+            @Html.TextBoxFor(m => m.TicketA);
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.TicketB);
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.TicketC);
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.TicketD);
+        </li>
+        <li>
+            @Html.TextBoxFor(m => m.TicketE);
+        </li>
+    </ul>
+
+    <button>Submit</button>
+
+}

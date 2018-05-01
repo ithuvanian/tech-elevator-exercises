@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";   //<-- Our Shared Layout file is located at this folder path.
+    string ratingPic = Math.Round(@Model.AverageRating) + "-star.png";
+    string isBestseller = "";
+    if (@Model.IsTopSeller)
+    {
+        isBestseller = "BEST SELLER!";
+    }
+}
+
+@using Exercises.Models;
+
+@model Product
+
+
+<div class="detail_top_section">
+    <div>
+        <img class="detail_product_image" src="~/Content/images/@Model.ImageName" />
+    </div>
+    <div class="detail_right_side">
+        <div class="detail_name">
+            @Model.Name
+        </div>
+        <img class="detail_rating" src="~/Content/images/@ratingPic" />
+        <p class="red_bestseller detail_bestseller">
+            @isBestseller
+        </p>
+        <div class="detail_manufacturer">
+            by @Model.Manufacturer
+        </div>
+    </div>
+
+</div>
+<div class="detail_bottom">
+    <p>
+        @Model.Description
+    </p>
+    <h4>
+        Product info:
+    </h4>
+    <ul>
+        <li>
+            Weight: @Model.WeightIbLbs lbs.
+        </li>
+        <li>
+            Product ID: @Model.ProductId
+        </li>
+        <li>
+            Qty in stock: @Model.RemainingStock
+        </li>
+    </ul>
+</div>

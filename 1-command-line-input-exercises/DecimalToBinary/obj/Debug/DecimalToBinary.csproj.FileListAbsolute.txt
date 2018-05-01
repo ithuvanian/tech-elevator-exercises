@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\bin\Debug\DecimalToBinary.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\bin\Debug\DecimalToBinary.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\obj\Debug\DecimalToBinary.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\obj\Debug\DecimalToBinary.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\obj\Debug\DecimalToBinary.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\bin\Debug\DecimalToBinary.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\DecimalToBinary\obj\Debug\DecimalToBinary.csprojResolveAssemblyReference.cache

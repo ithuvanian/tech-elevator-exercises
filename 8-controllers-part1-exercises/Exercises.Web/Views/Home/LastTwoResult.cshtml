@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Last Two Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model LastTwoModel
+
+<ul>
+
+@{
+    string[] allWords = { Model.WordA, Model.WordB, Model.WordC, Model.WordD, Model.WordE, Model.WordF, Model.WordG, Model.WordH, Model.WordI, Model.WordJ };
+    foreach (string word in allWords)
+    {
+        <li>
+            @Model.RevLastTwo(word)
+        </li>
+    }
+}
+
+</ul>
+
+
+<p>
+</p>

@@ -1,0 +1,6 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\bin\Debug\Exercises.dll
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\bin\Debug\Exercises.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\obj\Debug\Exercises.dll
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\obj\Debug\Exercises.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w2d3-collections-part2-exercises\Exercises\obj\Debug\Exercises.csprojResolveAssemblyReference.cache

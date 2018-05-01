@@ -1,0 +1,6 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\bin\Debug\LinearConvert.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\bin\Debug\LinearConvert.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\bin\Debug\LinearConvert.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\obj\Debug\LinearConvert.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\obj\Debug\LinearConvert.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w1d5-command-line-input-exercises\LinearConvert\obj\Debug\LinearConvert.pdb

@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";   //<-- Our Shared Layout file is located at this folder path.
+}
+
+
+@using Exercises.Models;
+
+@model List<Product>
+
+
+<ul class="list_ul">
+
+    @foreach (Product thisProduct in Model)
+    {
+        string ratingPic = "../Content/images/" + Math.Round(thisProduct.AverageRating) + "-star.png";
+        string isBestseller = "";
+        if (thisProduct.IsTopSeller)
+        {
+            isBestseller = "BEST SELLER!";
+        }
+
+        <li>
+            <div class="list_product">
+                <div>
+                    <a href="@Url.Action("Detail","Product", new { id = thisProduct.ProductId }, null)">
+                        <img class="list_product_image" src="../Content/images/@thisProduct.ImageName" />
+                    </a>
+                </div>
+                <div class="list_product_info">
+                    <ul>
+                        <li class="list_name">
+                            @thisProduct.Name
+                        </li>
+                        <li class="list_price">
+                            $@thisProduct.Price
+                        </li>
+                    </ul>
+                </div>
+                <div class="list_product_rating">
+                    <img class="list_star_pic" src=@ratingPic />
+                    <p class="red_bestseller">
+                        @isBestseller
+                    </p>
+                </div>
+
+            </div>
+        </li>
+
+
+    }
+
+</ul>

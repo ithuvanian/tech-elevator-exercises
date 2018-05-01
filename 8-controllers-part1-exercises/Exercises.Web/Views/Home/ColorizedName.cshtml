@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Colorized Name";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models;
+@model ColorizedModel
+
+
+@using (Html.BeginForm("ColorizedResult", "Home", FormMethod.Get))
+{
+    <div>
+        @Html.Label("firstName", "First Name:")
+        @Html.TextBoxFor(m => m.FirstName)
+    </div>
+
+    <div>
+        @Html.Label("lastName", "Last Name:")
+        @Html.TextBoxFor(m => m.LastName)
+    </div>
+
+    <ul>
+        <li>
+            @Html.CheckBoxFor(m => m.Red) Red 
+        </li>
+        <li>
+            @Html.CheckBoxFor(m => m.Blue) Blue
+        </li>
+        <li>
+            @Html.CheckBoxFor(m => m.Green) Green
+        </li>
+    </ul>
+
+    <button>
+        Submit
+    </button>
+}

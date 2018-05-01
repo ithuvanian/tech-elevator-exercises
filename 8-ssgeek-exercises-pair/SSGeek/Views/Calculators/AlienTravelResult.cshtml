@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Alien AgeS Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+
+@model SSGeek.Models.AlienTravelModel
+
+@{
+    string imageName = "..\\Content\\img\\" + Model.Planet + ".jpg";
+    decimal ageOnArrival = Model.Age + Model.getYearsOfTravel();
+}
+
+<section id="mainSection">
+
+    <div>
+        <img class="planetImage" src=@imageName alt="Alternate Text" />
+    </div>
+    <div class="resultText">Travelling by @Model.Mode you will reach @Model.Planet in @Model.getYearsOfTravel().ToString("F2") years. You will be @ageOnArrival.ToString("F2") years old.</div>
+
+</section>

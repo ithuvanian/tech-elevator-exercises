@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Alien AgeS Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+
+@model SSGeek.Models.AlienAgeModel
+
+@{
+    string imageName = "..\\Content\\img\\" + Model.Planet + ".jpg";
+}
+
+<section id="mainSection">
+
+    <div>
+        <img class="planetImage" src=@imageName alt="Alternate Text" />
+    </div>
+    <div class="resultText">If you are @Model.EarthAge years old on planet Earth, you are @Model.CalculateAge().ToString("F2") years old on @Model.Planet</div>
+
+</section>
+

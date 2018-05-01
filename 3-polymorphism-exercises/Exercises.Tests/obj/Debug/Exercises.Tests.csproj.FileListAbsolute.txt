@@ -1,0 +1,13 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\Exercises.Tests.dll
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\Exercises.Tests.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\PostageCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\TollBoothCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\PostageCalculator.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\PostageCalculator.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\TollBoothCalculator.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\bin\Debug\TollBoothCalculator.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.dll
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.pdb

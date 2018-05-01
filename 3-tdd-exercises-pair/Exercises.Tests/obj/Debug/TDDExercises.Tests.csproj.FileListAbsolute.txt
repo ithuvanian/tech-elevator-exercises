@@ -1,0 +1,8 @@
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\bin\Debug\TDDExercises.Tests.dll
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\bin\Debug\TDDExercises.Tests.pdb
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\bin\Debug\TDDExercises.dll
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\bin\Debug\TDDExercises.pdb
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\obj\Debug\TDDExercises.Tests.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\obj\Debug\TDDExercises.Tests.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\obj\Debug\TDDExercises.Tests.dll
+C:\Users\miweaver\team-exercises\team6-c-week3-pair-exercise\m1-w3d5-tdd-exercises-pair\Exercises.Tests\obj\Debug\TDDExercises.Tests.pdb

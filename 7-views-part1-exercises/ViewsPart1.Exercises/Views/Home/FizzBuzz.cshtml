@@ -1,0 +1,85 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FizzBuzz</title>
+    <style>
+        .fizz {
+            color: blue;
+        }
+        .buzz {
+            color: red;
+        }
+        .fizzbuzz {
+            color: darkviolet;
+            font-size: 1.5em;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            @{ 
+                for (int i = 1; i <= 100; i++)
+                {
+                    if (i % 15 == 0)
+                    {
+                        <li class="fizzbuzz">
+                            FizzBuzz
+                        </li>
+                    }
+                    else if (i % 5 == 0)
+                    {
+                        <li class="buzz">
+                            buzz
+                        </li>
+                    }
+                    else if (i % 3 == 0)
+                    {
+                        <li class="fizz">
+                            fizz
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            @i
+                        </li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+    @*List<string>finalList = new List<string>();
+        foreach (int item in integerArray)
+        {
+        if (item % 15 == 0)
+        {
+        finalList.Add("FizzBuzz");
+        }
+        else if (item % 5 == 0)
+        {
+        finalList.Add("Buzz");
+        }
+        else if (item % 3 == 0)
+        {
+        finalList.Add("Fizz");
+        }
+        else
+        {
+        finalList.Add(item.ToString());
+        }
+        }
+        return finalList;*@

@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Fizz Buzz Revisited Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Exercises.Web.Models
+
+@model FizzBuzzRevModel
+
+@{
+    int[] givenNumbers = new int[5] { Model.IntA, Model.IntB, Model.IntC, Model.IntD, Model.IntE };
+
+    <ul>
+        <li>
+            Divisible by: @Model.IntA
+        </li>
+        <li>
+            Divisible by: @Model.IntB
+        </li>
+        <li>
+            Divisible by both: @Model.IntA and @Model.IntB
+        </li>
+        <li>
+            Alternative Fizz: @Model.AltFizz
+        </li>
+        <li>
+            Alternative Buzz: @Model.AltBuzz
+        </li>
+    </ul>
+
+    foreach (int n in givenNumbers)
+    {
+
+        <p>
+            <span>
+                @n
+            </span>
+
+            @{
+                if (n % Model.DivB == 0 && n % Model.DivA == 0)
+                {
+                    <span>
+                        @Model.AltFizz@Model.AltBuzz
+                    </span>
+                }
+                else if (n % Model.DivA == 0)
+                {
+                    <span>
+                        @Model.AltFizz
+                    </span>
+                }
+                else if (n % Model.DivB == 0)
+                {
+                    <span>
+                        @Model.AltBuzz
+                    </span>
+                }
+            }
+        </p>
+    }
+}

@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+    string word = Request.QueryString["word"];
+    string count = Request.QueryString["count"];
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+</head>
+<body>
+    <div>
+        <ul>
+            @{
+                if (String.IsNullOrEmpty(word))
+                {
+                    word = "echo";
+                }
+                if (String.IsNullOrEmpty(count))
+                {
+                    count = "25";
+                }
+
+                for (int i = int.Parse(count); i > 0; i--)
+                {
+                    <li style="font-size: @i.ToString()px;">
+                        @word
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+</body>
+</html>

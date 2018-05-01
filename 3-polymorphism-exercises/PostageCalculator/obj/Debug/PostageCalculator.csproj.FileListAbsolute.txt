@@ -1,0 +1,7 @@
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\bin\Debug\PostageCalculator.exe.config
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\bin\Debug\PostageCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\bin\Debug\PostageCalculator.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\obj\Debug\PostageCalculator.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\obj\Debug\PostageCalculator.exe
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\obj\Debug\PostageCalculator.pdb
+C:\Users\miweaver\michaelweaver-c-exercises\m1-w3d3-polymorphism-exercises\PostageCalculator\obj\Debug\PostageCalculator.csprojResolveAssemblyReference.cache

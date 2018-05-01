@@ -1,0 +1,14 @@
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\bin\Debug\CardGame.exe.config
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\bin\Debug\CardGame.exe
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\bin\Debug\CardGame.pdb
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\obj\Debug\CardGame.exe
+C:\Users\miweaver\team-exercises\team7-c-week2-pair-exercise\m1-w2d5-oop-with-encapsulation-exercises-pair\CardGame\obj\Debug\CardGame.pdb
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\bin\Debug\CardGame.exe.config
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\bin\Debug\CardGame.exe
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\bin\Debug\CardGame.pdb
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\obj\Debug\CardGame.exe
+C:\Users\miweaver\Documents\MEGA\code\c#\cards\CardGame\obj\Debug\CardGame.pdb

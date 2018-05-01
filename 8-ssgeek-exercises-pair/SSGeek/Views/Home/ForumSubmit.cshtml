@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Forum Submit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SSGeek.Models
+@using SSGeek.DAL
+@model ForumPost
+
+<section id="mainSection">
+
+    <h3>New Geek Post</h3>
+
+    @using (Html.BeginForm("ForumView", "Home", FormMethod.Post))
+    {
+        <p>
+            Username
+            @Html.TextBoxFor(m => m.Username)
+        </p>
+        <p>
+            Subject
+            @Html.TextBoxFor(m => m.Subject)
+        </p>
+        <p>
+            Message
+            @Html.TextAreaFor(m => m.Message)
+        </p>
+
+        <button>Submit</button>
+
+
+    }
+
+
+</section>
